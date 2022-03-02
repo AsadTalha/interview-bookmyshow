@@ -1,0 +1,100 @@
+.paymentModal_proceed {
+  position: fixed;
+  top: 90%;
+  right: 80px;
+}
+
+.paymentModal_bill {
+  position: fixed;
+  top: 0px;
+  right: 0px;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(32, 36, 51, 0.8);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.billing__container {
+  background-color: white;
+  width: 300px;
+  height: 300px;
+  padding: 10px;
+  border-radius: 4px;
+}
+
+.billing__container__tota {
+  color: #52c78e;
+  font-size: 32px;
+  font-weight: bold;
+}
+
+.billing__container__breakdown {
+  margin-top: 20px;
+  padding: 10px;
+}
+
+.billing__container__breakdown__element {
+  display: flex;
+  flex-direction: row;
+  /* justify-content: space-between; */
+  margin-bottom: 10px;
+}
+
+.billing__container__breakdown__lable {
+  width: 150px;
+  color: rgba(32, 36, 51, 0.6);
+}
+
+.billing__container__breakdown__value {
+  margin-left: 14px;
+  color: rgba(32, 36, 51, 0.6);
+  font-weight: bold;
+}
+
+.button__container {
+  margin-top: 40px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  color: white;
+  font-weight: bold;
+}
+
+.button__pay {
+  width: 120px;
+  background-color: #52c78e;
+  text-align: center;
+  padding: 6px 0px;
+  border-radius: 4px;
+}
+.button__pay:hover {
+  cursor: pointer;
+}
+
+.button__cancel {
+  width: 120px;
+  background-color: coral;
+  text-align: center;
+  padding: 6px 0px;
+  border-radius: 4px;
+}
+
+.button__cancel:hover {
+  cursor: pointer;
+}
+
+.button__continue {
+  width: 100px;
+  background-color: #52c78e;
+  text-align: center;
+  padding: 10px;
+  border-radius: 4px;
+  color: white;
+  font-weight: bold;
+}
+
+.button__continue:hover {
+  cursor: pointer;
+}

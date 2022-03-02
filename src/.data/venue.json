@@ -1,0 +1,22 @@
+{
+  "movie": "!req",
+  "time": "!req",
+  "classes": {
+    "vip":{
+      "title": "VIP",
+      "extras": "GLASSES 3D",
+      "price": 275,
+      "rows": ["A","B"],
+      "seperation": 0,
+      "catogery": "vip"
+    },
+    "normal": {
+      "title": "NORMAL",
+      "extras": "GLASSES 3D",
+      "price": 175,
+      "catogery": "normal",
+      "rows": ["C", "D", "E", "F", "G", "H", "I", "J", "K", "L"],
+      "seperation": 3
+    }
+  }
+}

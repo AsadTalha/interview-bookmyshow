@@ -1,0 +1,65 @@
+.dashbody {
+  background-color: white;
+}
+
+.dashbody__canvas {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.dashbody__canvas__sections {
+  margin-top: 30px;
+}
+
+.dashbody__canvas__rows {
+  margin-top: 4px;
+}
+
+.dashbody__canvas__sections_tile {
+  text-align: center;
+  margin-bottom: 18px;
+  font-weight: 700;
+  color: rgba(0, 0, 0, 0.8);
+}
+
+.seat {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 30px;
+  width: 40px;
+  border: solid 2px #52c78e;
+  margin: 4px;
+  border-radius: 8px;
+  color: rgba(0, 0, 0, 0.4);
+}
+
+.occupide__seat {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 30px;
+  width: 40px;
+  border: solid 2px #d1d1d1;
+  background-color: #d1d1d1;
+  margin: 4px;
+  border-radius: 8px;
+  color: rgba(0, 0, 0, 0.4);
+}
+
+.nullSeat {
+  height: 30px;
+  width: 30px;
+}
+
+.seat:hover {
+  cursor: pointer;
+}
+
+.selected {
+  background-color: #52c78e;
+  border: solid 2px white;
+  color: white;
+}
