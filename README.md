@@ -1,15 +1,15 @@
 ## Instructions for running the app in development mode
 
-For cloning the repository run:
+Clone the repository by running:
 
 ### `git clone https://github.com/AsadTalha/interview-bookmyshow.git`
 
-After cloning the repo, go to root folder and run:
+After cloning the repo, go to root folder and install depencies by running:
 
 ### `npm install`
 
 
-For installing the dependencies run:
+Start the application with commnd:
 
 ### `npm start`
 
