@@ -42,3 +42,7 @@
 .header__select__option {
   margin: 10px;
 }
+
+option {
+  padding: 10px;
+}

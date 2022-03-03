@@ -45,7 +45,15 @@ const PaymentModal = (props) => {
             <div className="button__cancel" onClick={() => setInvoice(false)}>
               Cancel
             </div>
-            <div className="button__pay">Pay</div>
+            <div
+              className="button__pay"
+              onClick={() => {
+                alert("Booking confirmed!");
+                window.location.reload();
+              }}
+            >
+              Pay
+            </div>
           </div>
         </div>
       ) : (
